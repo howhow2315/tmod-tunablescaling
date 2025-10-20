@@ -1,0 +1,13 @@
+Tunable Scaling
+
+Gives you much more control over Boss HP, especially in multiplayer
+Should work with other mods, though it will likely completely break with another mod that touches HP Scaling in the same way I did
+
+
+
+TBA:
+
+	Scaling:
+	* Regular Enemies
+	* Defense
+	* Damage

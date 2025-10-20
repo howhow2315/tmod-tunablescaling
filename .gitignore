@@ -1,0 +1,15 @@
+*.tmod
+*.csproj
+*.user
+bin/
+obj/
+.vscode/
+*.suo
+*.exe
+*.dll
+*.pdb
+*.cache
+*.tmp
+*.db
+*.ipch
+*.log

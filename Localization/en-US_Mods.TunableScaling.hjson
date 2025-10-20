@@ -1,0 +1,129 @@
+Configs: {
+	TunableScalingModConfig: {
+		DisplayName: Tunable Scaling Mod Config
+
+		Headers: {
+			NPC_Multipliers: N P C_ Multipliers Header
+			Bosses: Bosses Header
+			Enemy: Enemy Header
+			Boss: Boss Header
+			MultiplayerScaling: Multiplayer Scaling Header
+			Debug: Debug Header
+		}
+
+		NPC_Health: {
+			Label: N P C_ Health
+			Tooltip: ""
+		}
+
+		NPC_Damage: {
+			Label: N P C_ Damage
+			Tooltip: ""
+		}
+
+		NPC_Loot: {
+			Label: N P C_ Loot
+			Tooltip: ""
+		}
+
+		Boss_Health: {
+			Label: Boss_ Health
+			Tooltip: ""
+		}
+
+		Boss_Damage: {
+			Label: Boss_ Damage
+			Tooltip: ""
+		}
+
+		Boss_Loot: {
+			Label: Boss_ Loot
+			Tooltip: ""
+		}
+
+		Enemy_Health: {
+			Label: Enemy Health
+			Tooltip: ""
+		}
+
+		Enemy_Damage: {
+			Label: Enemy Damage
+			Tooltip: ""
+		}
+
+		Enemy_Loot: {
+			Label: Enemy Loot
+			Tooltip: ""
+		}
+
+		Enemy_SpawnRate: {
+			Label: Enemy Spawn Rate
+			Tooltip: ""
+		}
+
+		Enemy_Scale: {
+			Label: Enemy Scale
+			Tooltip: ""
+		}
+
+		Boss_Scale: {
+			Label: Boss Scale
+			Tooltip: ""
+		}
+
+		Boss_MultiplayerScaling_Scale_Health: {
+			Label: Scale Boss Health
+			Tooltip: ""
+		}
+
+		Boss_MultiplayerScaling_Scale_Damage: {
+			Label: Scale Boss Damage
+			Tooltip: ""
+		}
+
+		Boss_MultiplayerScaling_BaseFactor_Percent: {
+			Label: Boss Base Factor %
+			Tooltip: ""
+		}
+
+		Boss_MultiplayerScaling_Flat: {
+			Label: Boss Flat Scaling
+			Tooltip: The normal formula is 'f(n) = n - 39/20 + 39/20(2/3)^(n-1)', this changes it to be simply +(Base Factor)% per player.
+		}
+
+		Boss_MultiplayerScaling_10Player_Alternative: {
+			Label: 10+ Player Alternative
+			Tooltip: When there are 10+ players in a server, by (Terraria) default the scaling formula changes to (MultiplayerFactor * 2 + 8) / 3 = ModifiedMultiplayerFactor.
+		}
+
+		Boss_Size: {
+			Label: Boss Size
+			Tooltip: ""
+		}
+
+		Boss_MultiplayerScaling_Scale_Size: {
+			Label: Scale Boss Size
+			Tooltip: ""
+		}
+
+		Boss_MultiplayerScaling_PlayerOffset: {
+			Label: Boss Scaling Player Offset
+			Tooltip: Boss scaling will act as though this many fewer players are present. Does not prevent scaling, but reduces its early impact.
+		}
+
+		Boss_MultiplayerScaling_10PlayerAlternative: {
+			Label: 10+ Player Alternative
+			Tooltip: When there are 10+ players in a server, by (Terraria) default the scaling formula changes to (MultiplayerFactor * 2 + 8) / 3 = ModifiedMultiplayerFactor.
+		}
+
+		Boss_Debug_PlayerCountOffset: {
+			Label: Debug Player Count Offset
+			Tooltip: playerCount + playerCountOffset.
+		}
+
+		Debug_PlayerCountOffset: {
+			Label: Debug Player Count Offset
+			Tooltip: playerCount + playerCountOffset.
+		}
+	}
+}
