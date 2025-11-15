@@ -1,0 +1,3 @@
+This is a quick mod I threw together to make multiplayer scaling functionally managable
+
+It somewhat works but breaks fairly easily with other mods. If someone has a better way of handling this please tell me because the exact formulas do not exist for everything...
